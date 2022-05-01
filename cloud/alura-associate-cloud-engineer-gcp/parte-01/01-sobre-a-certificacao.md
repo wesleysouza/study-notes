@@ -22,6 +22,24 @@ Um associate Cloud Engineer implanta aplicativos, monitora operações e gerenci
 
 [Compare os serviços da AWS e do Azure com o Google Cloud](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison)
 
+## Sobre a certificação
+
+- Duração: duas horas;
+- Taxa de inscriçaõ: US$ 125;
+- Formato: múltipla escolha e seleção múltipla;
+
+### Dicas de Estudo
+
+- Curso;
+- Experiência Prática;
+- Laboratórios e Tutoriais;
+- Documentação oficial (Concepts) para a tecnologia;
+- [GCP Solutions](https://cloud.google.com/solutions?hl=pt-br).
+
+
+
+
+
 
 
 
