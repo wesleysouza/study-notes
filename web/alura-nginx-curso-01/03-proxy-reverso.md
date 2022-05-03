@@ -4,4 +4,11 @@ Um proxy é um servidor por onde passa todas as resuisições de rede. Já o pro
 
 ## Configurando
 
-Acesse o arquivo nginx.conf e verifique onde ta os servers, adicione 
+Acesse o arquivo nginx.conf e verifique onde ta os servers, adicione no location o seguinte comando:
+
+proxy_pass http://localhost:80;
+
+Agora, quando alguém mandar uma requisição para esse servidor ela será encaminhada para **http://localhost:80**.
+
+## Trabalhando com outro servidor de aplicação
+
