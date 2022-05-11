@@ -16,7 +16,7 @@ Resposta: Developer.
 
 ### Dicas de exame:
 - Case de suporte técnico NÃO são oferecidos no plano **Básico**;
-- Trusted Advisor **completo** somente nos planos **Business e Enterprise**;
+- [Trusted Advisor](https://aws.amazon.com/pt/premiumsupport/technology/trusted-advisor/) **completo** somente nos planos **Business e Enterprise**;
 - Suporte em até 15 minutos, apenas no plano **Enterprise**.
 - **TAM**, **Concierge** e **revisão** de arquitetura, apenas no plano **Enterprise**.
 
