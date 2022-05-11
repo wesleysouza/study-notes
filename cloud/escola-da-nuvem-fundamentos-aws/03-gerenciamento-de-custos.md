@@ -10,7 +10,7 @@
 
 ### Cenário exemplo
 
-Um grupo de desenvolvedores de uma startup está decidindo o melhor plano para a empresa. Eles atuam em horário comenrcial e uma única pessoa será responsável pela abertura do case de suporte.
+Um grupo de desenvolvedores de uma startup está decidindo o melhor plano para a empresa. Eles atuam em horário comercial e uma única pessoa será responsável pela abertura do case de suporte.
 
 Resposta: Developer.
 
@@ -26,7 +26,7 @@ As interfaces de acesso são:
 - AWS Management Console;
 - Linha de comando (CLI);
 - Software Development Kit (SDK).
-    - Acesso a funcionalidades do ambinete por meio de linguagens de programação.
+    - Acesso a funcionalidades do ambiente por meio de linguagens de programação.
 
 Essas interfaces foram construídas em cima da API principal da AWS.
 
@@ -89,6 +89,3 @@ Estimar custos e serviços:
     - Custos separados por serviço, grupo ou total.
 
 Obs.: Os preços da calculadora são em dólares e não levam em consideração impostos e etc.
-
-
-
