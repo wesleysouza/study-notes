@@ -89,7 +89,7 @@ Organizando o billing.
 AWS Organizations permite que você **gerencia** e **controle** seu ambiente de maneira **centralizada**.
 
 - Serviço global que gerencia múltiplas contas!
-- Único faturamento e agrgação de bustos.
+- Único faturamento e agregação de custos.
 
 ![Lista](/cloud/escola-da-nuvem-fundamentos-aws/imgs/cap-08-aws-organizations.png "")
 
@@ -126,7 +126,7 @@ Seguir as melhores práticas disponibilizadas pelos engenheiros da AWS.
 - **Security**: proteger informações e sistemas;
 - **Reliability**: garantir que uma carga de trabalho execute sua função pretendida corretamente e de modo consistente;
 - **Prformance Efficiency**: usos eficiente de recursos e computação;
-- **Cost Optimization**: compreenção e controle de onde o dinheiro está sendo fasto, ajustando os recursos e serviços.
+- **Cost Optimization**: compreenção e controle de onde o dinheiro está sendo gasto, ajustando os recursos e serviços.
 
 Obs.: É fundamental manter equilíbrio entre os cinco pilares.
 
