@@ -62,7 +62,7 @@ Analogia da Corrida: No CludWatch coisas relaiconadas ao desempenho são medidas
 
 Em suma, o CloudTrail Registra todas as modificações no ambientes possibilitando a auditoria.
 
-## 08.02 AWS Config
+## 08.03 AWS Config
 
 O AWS Config é um serviço que permite acessar, auditar e avaliar as configurações dos recursos na AWS.
 
@@ -82,7 +82,7 @@ Funcionamento:
 - Notificaçõe de alterações são enviadas com o Amazon SNS e disponibilizadas no Dashboard (painel) do AWS Config.
 - Não faz parte do free-tier.
 
-## 08.05 AWS Organizations
+## 08.04 AWS Organizations
 
 Organizando o billing.
 
@@ -100,7 +100,7 @@ AWS Organizations permite que você **gerencia** e **controle** seu ambiente de 
 - API disponível para criação de contas;
 - Restrição das contas usando SCP (Service Control Police).
 
-## 08.06 AWS Well-Architected
+## 08.05 AWS Well-Architected
 
 Seguir as melhores práticas disponibilizadas pelos engenheiros da AWS.
 
@@ -130,7 +130,7 @@ Seguir as melhores práticas disponibilizadas pelos engenheiros da AWS.
 
 Obs.: É fundamental manter equilíbrio entre os cinco pilares.
 
-## 08.07 AWS Artifact - Acordos e Relatórios de conformidade
+## 08.06 AWS Artifact - Acordos e Relatórios de conformidade
 
 ### Artefatos de Compliance
 
@@ -139,7 +139,7 @@ Obs.: É fundamental manter equilíbrio entre os cinco pilares.
 - Os acrodos de uso de serviços (agreements), são BAA e HIPAA;
 - São utilizado em auditorias internas e conformidade;
 
-## 08.08 AWS Artifact (LAB)
+## 08.07 AWS Artifact (LAB)
 
 Armazenar e disponibilizaros  acordos de conformidade e relatórios de segurança e compliance.
 
@@ -148,7 +148,7 @@ Atividade:
 - Acessar os relatórios de segurança e conformidade;
 - Baixar um relatório de segurança.
 
-## 08.09 AWS Trusted Advisor
+## 08.08 AWS Trusted Advisor
 
 Ferramenta que fornece orientações em tempo real para a sua conta nas seguintes áreas:
 - Otimização de custo;
@@ -163,6 +163,6 @@ Os únicos planos que possuem todas as categorias são os businesse e enterprise
 
 ![Lista](/cloud/escola-da-nuvem-fundamentos-aws/imgs/cap-08-trusted-advisor.png "")
 
-## 08.10 AWS Trusted Advisor (LAB)
+## 08.09 AWS Trusted Advisor (LAB)
 
 - Serviço Global;
