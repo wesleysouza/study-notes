@@ -1,4 +1,4 @@
-# Monitoria, Governança e Comliance
+# Monitoria, Governança e Compliance
 
 ## 08.01 Amazon CloudWatch
 
