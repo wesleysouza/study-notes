@@ -28,7 +28,7 @@ Exemplos de métrics:
 - Visualizar as aplicações e sua infraestrutura em um único local;
 - Acessar um Dashboard automático;
 - Criar o seu Dashboard (painel) personalizado, com os serviços e métricas que deseja acompanhar;
-- Configurar alarmes viasuais do ambiente;
+- Configurar alarmes visuais do ambiente;
 
 #### Atuar
 
@@ -38,7 +38,7 @@ Exemplos de métrics:
 - ALARM ACTION:
     - Auto Scaling Group: aumentar ou diminuir o número de instâncias no Amazon EC2;
     - Amazon EC2: Para terminar, reiniciar ou recuprar uma instância;
-    - Amzon SNS: Enviar notificações para um SNS Topic, para que os assinantes recebam um e-mail.
+    - Amazon SNS: Enviar notificações para um SNS Topic, para que os assinantes recebam um e-mail.
 
 #### Analisar
 
@@ -50,7 +50,7 @@ Exemplos de métrics:
 
 ## 08.02 AWS CloudTrail
 
-O AWS CloudTrail é um serviço qu possibilita **governança**, **conformidade**, **auditoria** operacional e auditoria de riscos em sua conta AWS.
+O AWS CloudTrail é um serviço que possibilita **governança**, **conformidade**, **auditoria** operacional e auditoria de riscos em sua conta AWS.
 
 Quem acessou, quem mudou e etc.
 
@@ -118,7 +118,7 @@ Seguir as melhores práticas disponibilizadas pelos engenheiros da AWS.
 - Escalabilidade: vertical & horizontal;
 - Recursos descartáveis: nada é para sempre;
 - Automação: serverless, IaaS, auto scaling;
-- Loose couple: faslhas não podem cascatear & não ao monolito;
+- Loose couple: falhas não podem cascatear & não ao monolito;
 - Serviços não Servidores: será que não tem um serviço pra isso?
 
 ### Cinco Pilares Well-Architected
@@ -136,12 +136,12 @@ Obs.: É fundamental manter equilíbrio entre os cinco pilares.
 
 - Os documntos são chamados de artefato;
 - Os relatórios de segurança e compliance são ISO, PCI e SOC;
-- Os acrodos de uso de serviços (agreements), são BAA e HIPAA;
+- Os acordos de uso de serviços (agreements), são BAA e HIPAA;
 - São utilizado em auditorias internas e conformidade;
 
 ## 08.07 AWS Artifact (LAB)
 
-Armazenar e disponibilizaros  acordos de conformidade e relatórios de segurança e compliance.
+Armazenar e disponibilizar os acordos de conformidade e relatórios de segurança e compliance.
 
 Atividade:
 - Acessar o AWS Artifact;
