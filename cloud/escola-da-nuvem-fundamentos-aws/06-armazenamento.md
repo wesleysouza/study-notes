@@ -59,7 +59,7 @@ O S3 Intelligent Tiering (serviço pago) faz a movimentação automática do arq
 
 S3 One Zone IA: armazena os dados em apenas uma zona de disponibilidade, com a vantagem de ter um menor custo.
 
-Recuperação de dados: Enquanto ele não for movido para o S3 Glacier a recuperação dele é imediata, mas se for movido para o Glacier pode demorar monutos ou horas e se for para o Deep Archive, até 12 horas. Por esse motivo o armazenamento no Glacier é mais barato.
+Recuperação de dados: Enquanto ele não for movido para o S3 Glacier a recuperação dele é imediata, mas se for movido para o Glacier pode demorar minutos ou horas e se for para o Deep Archive, até 12 horas. Por esse motivo o armazenamento no Glacier é mais barato.
 
 **IMPORTANTE: O S3 é exclusivo para objetos, para subir um SO usamos o Amazon EBS.**
 
@@ -213,5 +213,5 @@ Características:
 - Recuperação Padrão de 3 até 5 horas;
 - Recuperação Massa de 5 até 12 horas;
 - Recuperação Expressa (<250mb) 1 a 5 minutos;
-- Dados recuperados ficam no buvket S3 por 24 horas.
+- Dados recuperados ficam no bucket S3 por 24 horas.
 
