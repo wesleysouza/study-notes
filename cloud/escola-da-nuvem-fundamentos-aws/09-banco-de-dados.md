@@ -2,7 +2,7 @@
 
 ## 09.01 Amazon Relational Database Service (RDS)
 
-O **Amazon Relational Database Service** (ou amazon RDS) é um **banco de dados relacional** qe destaca-se por sua escalabidade, automatização na aplicação de patches, provisionamento de hasrware e becape na Nuvem AWS.
+O **Amazon Relational Database Service** (ou amazon RDS) é um **banco de dados relacional** que se estaca por sua escalabidade, automatização na aplicação de patches, provisionamento de hasrware e becape na Nuvem AWS.
 
 Linguagem: SQL (Linguagem de Consulta Estruturada)
 

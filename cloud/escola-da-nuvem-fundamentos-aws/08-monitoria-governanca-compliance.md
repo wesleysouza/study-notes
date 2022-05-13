@@ -1,4 +1,4 @@
-# Monitoria, Governança e Comliance
+# Monitoria, Governança e Compliance
 
 ## 08.01 Amazon CloudWatch
 
@@ -28,7 +28,7 @@ Exemplos de métrics:
 - Visualizar as aplicações e sua infraestrutura em um único local;
 - Acessar um Dashboard automático;
 - Criar o seu Dashboard (painel) personalizado, com os serviços e métricas que deseja acompanhar;
-- Configurar alarmes viasuais do ambiente;
+- Configurar alarmes visuais do ambiente;
 
 #### Atuar
 
@@ -38,7 +38,7 @@ Exemplos de métrics:
 - ALARM ACTION:
     - Auto Scaling Group: aumentar ou diminuir o número de instâncias no Amazon EC2;
     - Amazon EC2: Para terminar, reiniciar ou recuprar uma instância;
-    - Amzon SNS: Enviar notificações para um SNS Topic, para que os assinantes recebam um e-mail.
+    - Amazon SNS: Enviar notificações para um SNS Topic, para que os assinantes recebam um e-mail.
 
 #### Analisar
 
@@ -50,7 +50,7 @@ Exemplos de métrics:
 
 ## 08.02 AWS CloudTrail
 
-O AWS CloudTrail é um serviço qu possibilita **governança**, **conformidade**, **auditoria** operacional e auditoria de riscos em sua conta AWS.
+O AWS CloudTrail é um serviço que possibilita **governança**, **conformidade**, **auditoria** operacional e auditoria de riscos em sua conta AWS.
 
 Quem acessou, quem mudou e etc.
 
@@ -62,7 +62,7 @@ Analogia da Corrida: No CludWatch coisas relaiconadas ao desempenho são medidas
 
 Em suma, o CloudTrail Registra todas as modificações no ambientes possibilitando a auditoria.
 
-## 08.02 AWS Config
+## 08.03 AWS Config
 
 O AWS Config é um serviço que permite acessar, auditar e avaliar as configurações dos recursos na AWS.
 
@@ -82,14 +82,14 @@ Funcionamento:
 - Notificaçõe de alterações são enviadas com o Amazon SNS e disponibilizadas no Dashboard (painel) do AWS Config.
 - Não faz parte do free-tier.
 
-## 08.05 AWS Organizations
+## 08.04 AWS Organizations
 
 Organizando o billing.
 
 AWS Organizations permite que você **gerencia** e **controle** seu ambiente de maneira **centralizada**.
 
 - Serviço global que gerencia múltiplas contas!
-- Único faturamento e agrgação de bustos.
+- Único faturamento e agregação de custos.
 
 ![Lista](/cloud/escola-da-nuvem-fundamentos-aws/imgs/cap-08-aws-organizations.png "")
 
@@ -100,7 +100,7 @@ AWS Organizations permite que você **gerencia** e **controle** seu ambiente de 
 - API disponível para criação de contas;
 - Restrição das contas usando SCP (Service Control Police).
 
-## 08.06 AWS Well-Architected
+## 08.05 AWS Well-Architected
 
 Seguir as melhores práticas disponibilizadas pelos engenheiros da AWS.
 
@@ -118,7 +118,7 @@ Seguir as melhores práticas disponibilizadas pelos engenheiros da AWS.
 - Escalabilidade: vertical & horizontal;
 - Recursos descartáveis: nada é para sempre;
 - Automação: serverless, IaaS, auto scaling;
-- Loose couple: faslhas não podem cascatear & não ao monolito;
+- Loose couple: falhas não podem cascatear & não ao monolito;
 - Serviços não Servidores: será que não tem um serviço pra isso?
 
 ### Cinco Pilares Well-Architected
@@ -126,29 +126,29 @@ Seguir as melhores práticas disponibilizadas pelos engenheiros da AWS.
 - **Security**: proteger informações e sistemas;
 - **Reliability**: garantir que uma carga de trabalho execute sua função pretendida corretamente e de modo consistente;
 - **Prformance Efficiency**: usos eficiente de recursos e computação;
-- **Cost Optimization**: compreenção e controle de onde o dinheiro está sendo fasto, ajustando os recursos e serviços.
+- **Cost Optimization**: compreenção e controle de onde o dinheiro está sendo gasto, ajustando os recursos e serviços.
 
 Obs.: É fundamental manter equilíbrio entre os cinco pilares.
 
-## 08.07 AWS Artifact - Acordos e Relatórios de conformidade
+## 08.06 AWS Artifact - Acordos e Relatórios de conformidade
 
 ### Artefatos de Compliance
 
 - Os documntos são chamados de artefato;
 - Os relatórios de segurança e compliance são ISO, PCI e SOC;
-- Os acrodos de uso de serviços (agreements), são BAA e HIPAA;
+- Os acordos de uso de serviços (agreements), são BAA e HIPAA;
 - São utilizado em auditorias internas e conformidade;
 
-## 08.08 AWS Artifact (LAB)
+## 08.07 AWS Artifact (LAB)
 
-Armazenar e disponibilizaros  acordos de conformidade e relatórios de segurança e compliance.
+Armazenar e disponibilizar os acordos de conformidade e relatórios de segurança e compliance.
 
 Atividade:
 - Acessar o AWS Artifact;
 - Acessar os relatórios de segurança e conformidade;
 - Baixar um relatório de segurança.
 
-## 08.09 AWS Trusted Advisor
+## 08.08 AWS Trusted Advisor
 
 Ferramenta que fornece orientações em tempo real para a sua conta nas seguintes áreas:
 - Otimização de custo;
@@ -163,6 +163,6 @@ Os únicos planos que possuem todas as categorias são os businesse e enterprise
 
 ![Lista](/cloud/escola-da-nuvem-fundamentos-aws/imgs/cap-08-trusted-advisor.png "")
 
-## 08.10 AWS Trusted Advisor (LAB)
+## 08.09 AWS Trusted Advisor (LAB)
 
 - Serviço Global;
