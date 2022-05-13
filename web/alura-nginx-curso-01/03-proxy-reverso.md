@@ -4,7 +4,7 @@ Um proxy é um servidor por onde passa todas as resuisições de rede. Já o pro
 
 ## Configurando
 
-Acesse o arquivo nginx.conf e verifique onde ta os servers, adicione no location o seguinte comando:
+Acesse o arquivo nginx.conf e verifique onde ta os servers, adicione no **location** o seguinte comando:
 
 proxy_pass http://localhost:80;
 
@@ -12,3 +12,4 @@ Agora, quando alguém mandar uma requisição para esse servidor ela será encam
 
 ## Trabalhando com outro servidor de aplicação
 
+Objetivo: sempre que for buscado algo com php a requisição será redirecionada para um servidor que roda php.
